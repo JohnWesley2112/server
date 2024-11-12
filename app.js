@@ -15,6 +15,6 @@ app.use('/api/auth', authRouter);
 app.use('/api/user', userRouter);
 app.use('/api/chat', chatRouter);
 app.use('/api/message', messageRouter);
-app.use('/api/testing', testingRouter);
+app.use(testingRouter);
 
 module.exports = app;

@@ -1,6 +1,6 @@
 const router = require('express').Router();
 
-router.get('/test', async (req, res) => {
+router.get('/', async (req, res) => {
     res.send({
         message: "Vercel is working.",
         success: true
